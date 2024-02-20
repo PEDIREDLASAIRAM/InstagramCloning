@@ -1,0 +1,327 @@
+body{
+    overflow-x: hidden;
+    
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 25px;
+    top:40px;
+}
+.container1
+{
+    margin-top: 15px;
+    display: flex;
+    
+}
+.svg1
+{
+    display: flex;
+    flex-direction: column;
+}
+.container1 p{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 17px;
+}
+.vl
+{
+    position: fixed;
+    top: 0;
+    border-left: 1px solid grey;
+    height: 100vh;
+    margin-left: 235px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    opacity: 0.35;
+}
+.c1
+{
+   display:flex;
+   justify-content: center;
+   height: 66px;
+   gap: 20px;
+   margin-top: 30px;
+  
+}
+.c2
+{
+    display: flex;
+    gap: 30px;
+    position: static;
+    justify-content: center;
+    
+    
+}
+.c1 .c2 img{
+    border: 3px solid transparent;
+    border-radius: 20px;
+    background: 
+    linear-gradient(to right,white,white), 
+    linear-gradient(to right ,#FCAF45,  #C13584, #E1306C, #F77737);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    padding: 2px;
+    border-radius: 50%;
+   
+}
+.c2 p
+{
+    
+   margin-top: 30px;
+   margin-left: -15px;
+   padding-left: 20px;
+   position: relative;
+   top: -25px;
+   left: 0px;
+   right: 50px;
+   font-size: 15px;
+   opacity: 0.8;
+   
+}
+.cls1
+{
+    display: flex;
+    justify-content: center;
+    gap: 270px;
+    margin-top: -10px;
+}
+.cls2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.cls2 svg
+{
+    margin-top: 13px;
+}
+
+.cls2 img{
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.sty1
+{
+    display: flex;
+    justify-content: center;
+
+}
+.sty1 img
+{
+    height: 468px;
+    width: 468px;
+    border-radius: 5px;
+}
+.sty2
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 320px;
+}
+.sty2 svg
+{
+    margin-right: 10px;
+}
+.p1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sty3
+{
+    display: flex;
+    justify-content: center;
+    gap: 340px;
+    opacity: 0.8;
+    margin-top: -8px;
+}
+.hl
+{
+    border-top: 1px solid black;
+    margin: auto;
+    width: 450px;
+    opacity: 0.35;
+    margin-bottom: 20px;
+}
+.end1
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 77%;
+    margin-top: -5px;
+}
+.end2
+{
+    display: flex;
+    gap: 150px;
+}
+.end2 img
+{
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+
+}
+.end3
+{
+    display: flex;
+}
+.a1
+{
+    display: flex;
+    justify-content: space-between;
+}
+.a2
+{
+    display: flex;
+    position: relative;
+    left: -30px;
+}
+
+.a1 input{
+   
+    position: relative;
+    right: 10px;
+    background-image: url(./images/search.svg);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-position: 2%;
+    background-size: 13px;
+    opacity: 0.8;
+}
+.h1
+{
+    opacity: 0.35;
+    margin-top: 10px;
+    border-top: 1px solid grey;
+    width: 100vw;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+img:hover
+{
+    cursor: pointer;
+}
+svg:hover{
+    cursor: pointer;
+}
+.c2 p{
+    cursor: pointer;
+}
+@media (max-width:1264px) 
+{
+    .container1 p
+    {
+        display: none;
+    }
+    .container .insta{
+        display: none;
+        
+    }
+    .container svg
+    {
+        margin-bottom: 20px;
+    }
+    .vl{
+        margin-left: 70px;
+    }
+    .container .threads
+    {
+        display: none;
+    }
+    .c1{
+        margin-left:-200px ;
+    }
+    .c3{
+        margin-left:-200px ;
+    }
+    .p1{
+        margin-left: -200px;
+    }
+    .end1{
+        margin-left: -50px;
+    }
+    
+}
+@media (min-width:1265px)
+{
+    .container .insta1
+    {
+        display: none;
+    }
+    
+}
+@media (max-width:1160px)
+{
+    .end1{
+        display: none;
+    }
+    .p1{
+        margin-left: auto;
+    }
+    .c1{
+        margin-left: auto;
+    }
+    .c3{
+        margin-left: auto;
+    }
+    
+    
+}
+@media (min-width:830px)
+{
+    .a1
+    {
+        display: none;
+    }
+    .h1{
+        display: none;
+    }
+    
+}
+@media (max-width:830px)
+{
+    
+    .vl{
+        display: none;
+    }
+     .container .insta1{
+        display:none;
+        
+    }
+     /* .container1 .exp{
+        display:none;
+        
+    }
+    .container1 .like{
+        display:none;
+    } */
+    .container1 .more{
+        display:none;
+        
+        
+    } 
+    
+    .container
+    {
+        flex-direction: row;
+        
+        position: fixed;
+        top: 94vh;
+        left: 10px;
+        width:100vw;
+        background-color: white;
+        z-index: 1;
+        justify-content: space-evenly;
+    }
+    
+}
